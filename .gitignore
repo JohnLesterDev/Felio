@@ -15,6 +15,13 @@
 *.tar.gz
 *.rar
 
+gradlew
+gradlew.bat
+gradle
+.gitattributes
+settings.gradle
+
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
@@ -83,3 +90,5 @@ atlassian-ide-plugin.xml
 
 # NetBeans specific files/directories
 .nbattrs
+# Ignore Gradle build output directory
+build
